@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import './timer.css';
 
 function Timer() {
     const [time, setTime] = useState(new Date());
