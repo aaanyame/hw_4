@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './counter.css';
+import './Counter.css';
 
 function Counter() {
     const [count, setCount] = useState(0);
@@ -11,7 +11,7 @@ function Counter() {
     };
 
     return (
-        <div>
+        <div className="Counter">
             <h2>Счетчик: {count} </h2>
             <button onClick={handleIncrement}>Увеличить</button>
             <button onClick={handleDecrement}>Уменьшить</button>

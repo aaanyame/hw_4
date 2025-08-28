@@ -1,9 +1,12 @@
-.timer {
+.Timer {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
     padding: 40px 20px 40px 20px;
     background: #5e0982;
 background: linear-gradient(90deg, rgba(94, 9, 130, 1) 0%, rgba(59, 161, 100, 1) 50%, rgba(117, 4, 22, 1) 100%);
     color: black;
     border-radius: 8px;
+    margin: 20px 260px 20px 260px;
 }

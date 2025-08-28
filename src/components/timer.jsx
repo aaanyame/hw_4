@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './timer.css';
+import './Timer.css';
 
 function Timer() {
     const [time, setTime] = useState(new Date());
@@ -10,7 +10,7 @@ function Timer() {
         return () => clearInterval(interval);
     }, []);
     return (
-        <div>
+        <div className="Timer">
             <h2>Текущее время:</h2>
             <p>{time.toLocaleTimeString()}</p>
         </div>

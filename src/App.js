@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Counter from './components/counter';
-import Timer from './components/timer';
+import Counter from './components/Counter';
+import Timer from './components/Timer';
 
 function App() {
   return (
